@@ -1,6 +1,6 @@
 
 # Unified Windows Program Manager
-A small piece of software that runs as a `windows task (task scheduler)` that executes an OpenPipe script (`WinProgManager.js`) that subscribe to some variables in the locally running `WinCC Unified PC RT` application. 
+A small piece of software that runs as a `Windows task (task scheduler)` that executes an OpenPipe script (`WinProgManager.js`) that subscribe to some variables in the locally running `WinCC Unified PC RT` application. 
 
 ```mermaid
 graph LR
@@ -39,6 +39,12 @@ D --> E((Unified<br>PC RT))
 ## Tested scope
 
 This has only be tested with `WinCC Unified PC RT V19 & V20`.
+
+## Please note:
+The Windows task re-execute itself each 1 minute for the OpenPipe script to be always connected / executed (otherwise, it loose connection on stopping RT or not finding the right tag to subscribe to). Maybe in that regards an ODK C# program would have been a better choice, but for now this solutions works.
+
+You can change the `Windows Task` to trigger on "startup" (delayed) to only run "once", just make sure it starts after the Unified RT is started.
+
 # Disclaimer:
 
 >  The examples are non-committal and do not lay any claim to completeness with regard to configuration and equipment as well as any eventualities. The examples do not represent any custom-designed solutions but shall offer only support at typical tasks. You are accountable for the proper mode of the described products yourself.
