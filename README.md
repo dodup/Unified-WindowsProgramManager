@@ -36,6 +36,10 @@ D --> E((Unified<br>PC RT))
 
 ![TIA Portal Tag Table](media/tags.png)
 
+## Diagnostics
+
+A file created in `C:\Temp` called `UWPM-service-log.txt` will be appended each time a trigger is seen by the OpenPipe script.
+
 ## Tested scope
 
 This has only be tested with `WinCC Unified PC RT V19 & V20`.
