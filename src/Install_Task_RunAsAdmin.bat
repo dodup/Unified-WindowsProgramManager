@@ -1,6 +1,14 @@
 @echo off
 setlocal enabledelayedexpansion
 
+:: Create temp folder
+if not exist "C:\temp" (
+    mkdir "C:\temp"
+    echo Temp folder created successfully.
+) else (
+    echo Temp folder already exists.
+)
+
 :: Set task name
 set "TASKNAME=UnifiedWinProgManager"
 
