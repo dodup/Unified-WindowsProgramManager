@@ -9,7 +9,7 @@ B --> C["launch-silent.ps1"] --> D["Unified-WinProgManager.exe"]
 D --> E((Unified<br>PC RT))
 ```
 ## Installation Steps
-1. **Download** the file package `UWPM_V1.1.0.zip` from this repository.
+1. **Download** the file package `UWPM_V1.1.0.zip` from the `Releases` section on the right.
 2. **Unzip** the files to any location on the WinCC Unified PC RT station.
 3. **Run** the `Install_Task_RunAsAdmin.bat` file as **administrator**.
 
