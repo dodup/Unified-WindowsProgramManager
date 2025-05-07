@@ -1,5 +1,5 @@
 # Unified Windows Program Manager
-A small piece of software that runs as a `Windows task (task scheduler)` that executes an OpenPipe script (`Unified-WinProgManager.exe`, that is based on Python OpenPipe examples from DVD2) that subscribe to some variables in the locally running `WinCC Unified PC RT` application. 
+A small piece of software that runs as a `Windows task (task scheduler)` that executes an OpenPipe script (`Unified-WinProgManager.exe`, that is based on Python OpenPipe examples from DVD2) that subscribe to some variables in the locally running `WinCC Unified PC RT` application. This is made to open programs with GUI from WinCC Unified with X,Y coordinates and W,H size.
 
 ```mermaid
 graph LR
