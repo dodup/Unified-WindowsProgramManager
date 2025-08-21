@@ -26,8 +26,7 @@ D --> E((Unified<br>PC RT))
 |          **Tag.Elements**         | **DataType** | **Description** |
 |:------------------------|:------------|:-----------|
 | `_WINPROGMANAGER_.trigger` | Bool         |  The application looks for this trigger to then read the parameters           |
-| `_WINPROGMANAGER_.path`    | WString      | Full path and arguments for the application, can join args with 
-the | character. For example C:\Program\MyProg.exe|Argument       |
+| `_WINPROGMANAGER_.path`    | WString      | Full path and arguments for the application, can join args with the `\|` character. For example C:\Program\MyProg.exe|Argument       |
 | `_WINPROGMANAGER_.PosX`    | Int          |  X position (px) to be opened in the screen                |
 | `_WINPROGMANAGER_.PosY`    | Int          |  Y position (px) to be opened in the screen                |
 | `_WINPROGMANAGER_.SizeW `  | Int          |  Size of the width (px) that the application should have   |
